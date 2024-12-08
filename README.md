@@ -5,10 +5,32 @@
 Join the AI Chatbot Challenge and elevate your skills by combining the power of Laravel and Azure AI Foundry! In this challenge, you’ll explore how to create a custom AI-powered chatbot using Azure AI Studio while enhancing your backend expertise with Laravel. Complete the project, showcase your work, and receive a certificate of achievement to share on LinkedIn and beyond. 📜🎓
 ![Intro Image](public/images/intro.png)
 
+## Benefits of Participating 🎁
+
+By joining this challenge, you will:
+
+- Earn a certificate of achievement to showcase your skills.
+- Stand a chance to win LinkedIn Premium vouchers.
+- Gain hands-on experience with Azure AI Foundry.
+- Have the opportunity to win Azure free vouchers.
+- Enhance your backend development skills with Laravel.
+- Expand your professional network and career opportunities.
+
 ## Step 01
 ## Getting Started with Azure AI Foundry 🚀
 
 First, start learning with Azure AI Foundry by completing the Azure AI Foundry learning path: [Create Custom Copilots with AI Studio](https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio?wt.mc_id=studentamb_365539)
+
+## How to Get Azure Free Credit with Student Sign-Up 🎓💳
+
+As a student, you can get free Azure credits by signing up for the Azure for Students offer. Follow these steps to get started:
+
+1. **Visit the Azure for Students Page**: Go to the [Azure for Students](https://azure.microsoft.com/en-us/free/students/) page.
+2. **Sign Up with Your School Email**: Click on the "Activate now" button and sign up using your school email address.
+3. **Verify Your Student Status**: Follow the instructions to verify your student status. You may need to provide additional information or documentation.
+4. **Receive Your Free Credits**: Once your student status is verified, you will receive $100 in Azure credits, which you can use for various Azure services.
+
+With these credits, you can explore and use Azure services to build and deploy your projects without any cost. Happy learning and building!
 
 ## Step 02
 ## Setting Up the Chatbot 🛠️
@@ -70,6 +92,10 @@ After completing the project, submit it to receive your certificate. Follow thes
 2. Enter your correct name and email address.
 3. Provide your LinkedIn profile URL.
 4. Include the link to your forked repository.
+
+## Chance to Win LinkedIn Premium Vouchers 🎁
+
+By participating in this challenge, you also stand a chance to win LinkedIn Premium vouchers! Showcase your project, complete the submission form, and you might be one of the lucky winners to receive a LinkedIn Premium voucher to boost your professional network and career opportunities.
 
 Fill out the submission form here: [Google Form](https://forms.gle/JHWgNUQkyPTb9HSh8)
 
