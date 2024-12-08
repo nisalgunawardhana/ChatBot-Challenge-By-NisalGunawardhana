@@ -120,7 +120,8 @@ After setting up your environment variables, you need to configure the OpenAI se
 
 Your `config/services.php` file should look like this:
 
-``` <?php
+``` 
+<?php
 
 return [
 
@@ -170,9 +171,11 @@ return [
 
 Make sure to replace `your_api_key` `your_api_endpoint` with your actual OpenAI API key in the `.env` file:
 
-```AZURE_BOT_API_URL=your_api_endpoint
+```
+AZURE_BOT_API_URL=your_api_endpoint
 AZURE_BOT_API_KEY=your_api_key
 ```
+
 
 Now your Bot services are configured and ready to use!
 
