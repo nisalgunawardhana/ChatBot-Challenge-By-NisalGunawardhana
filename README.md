@@ -1,66 +1,140 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Build Your Own AI-Powered Chatbot with Azure AI Foundry
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
 
-## About Laravel
+Join the AI Chatbot Challenge and elevate your skills by combining the power of Laravel and Azure AI Foundry! In this challenge, you’ll explore how to create a custom AI-powered chatbot using Azure AI Studio while enhancing your backend expertise with Laravel. Complete the project, showcase your work, and receive a certificate of achievement to share on LinkedIn and beyond.
+![Intro Image](public/images/intro.png)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Step 01
+## Getting Started with Azure AI Foundry
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+First, start learning with Azure AI Foundry by completing the Azure AI Foundry learning path: [Create Custom Copilots with AI Studio](https://learn.microsoft.com/training/paths/create-custom-copilots-ai-studio?wt.mc_id=studentamb_365539)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Step 02
+## Setting Up the Chatbot
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## How to Fork this Repository
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+To fork this repository, follow these steps:
+1. Navigate to the repository on GitHub.
+2. Click the "Fork" button in the top right corner of the page.
+3. Choose your GitHub account to fork the repository.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## How to Clone to Local PC
 
-## Laravel Sponsors
+To clone the forked repository to your local PC, follow these steps:
+1. Open your terminal or command prompt.
+2. Run the following command, replacing `your-username` with your GitHub username:
+    ```bash
+    git clone https://github.com/your-username/chatbot-By-NisalGunawardhana.git
+    ```
+3. Navigate to the cloned directory:
+    ```bash
+    cd chatbot-By-NisalGunawardhana
+    ```
+## Setting Up Environment Variables
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+    To set up your environment variables, follow these steps:
 
-### Premium Partners
+    1. Copy the `.env.example` file to create a new `.env` file:
+        ```bash
+        cp .env.example .env
+        ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    2. Open the `.env` file in your preferred text editor.
 
-## Contributing
+    3. Uncomment the `AZURE_URL` and `API_KEY` lines by removing the `#` at the beginning of the lines and provide the appropriate values:
+        ```env
+        AZURE_URL=your_azure_url
+        API_KEY=your_api_key
+        ```
+  
+## Finding Your Azure AI Studio API Key and Endpoint
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    To find your Azure AI Studio API key and endpoint, follow these steps:
 
-## Code of Conduct
+        1. Sign in to the [Azure AI Foundry](https://ai.azure.com/).
+        2. Navigate to your Project.
+        3. In the left-hand menu, select the "Overview" section.
+        4. You will see your API keys and endpoint URL listed on this page. Copy these values to use in your `.env` file.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    ![Project Screenshot](public/images/image01.png)
 
-## Security Vulnerabilities
+## Step 03
+## Submit Project and Get Certificate
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    After completing the project, submit it to receive your certificate. Follow these steps:
 
+        1. Ensure you have completed the learning path and attached the completion badge.
+        2. Enter your correct name and email address.
+        3. Provide your LinkedIn profile URL.
+        4. Include the link to your forked repository.
+
+    Fill out the submission form here: [Google Form](https://forms.gle/your-google-form-link)
+
+
+## Prerequisites
+
+Before running the project, ensure you have the following installed:
+
+- **Laravel**: A PHP framework for web artisans. [Laravel Documentation](https://laravel.com/docs)
+    ```
+## Helpful YouTube Videos for Setting Up Laravel
+
+Here are some YouTube videos to help you with setting up a Laravel development environment:
+
+- [How to Install Laravel on Windows](https://www.youtube.com/watch?v=MFh0Fd7BsjE)
+- [How to Install Laravel on macOS](https://www.youtube.com/watch?v=4q0gYjAVonI)
+- [How to Install Laravel on Ubuntu](https://www.youtube.com/watch?v=ImtZ5yENzgE)
+
+- **PHP >= 8.0**: A popular general-purpose scripting language that is especially suited to web development. [PHP Documentation](https://www.php.net/docs.php)
+- **Composer**: A dependency manager for PHP. [Composer Documentation](https://getcomposer.org/doc/)
+- **Node.js & npm**: Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, and npm is the package manager for Node.js. [Node.js Documentation](https://nodejs.org/en/docs/)
+- **A web server like Xampp or Nginx**: Xampp is an easy-to-install Apache distribution containing MySQL, PHP, and Perl. Nginx is a high-performance HTTP server and reverse proxy. [Xampp Documentation](https://www.apachefriends.org/index.html) | [Nginx Documentation](https://nginx.org/en/docs/)
+
+To set up the project, follow these steps:
+
+1. **Install PHP**: Follow the instructions in the PHP documentation to install PHP on your system.
+2. **Install Composer**: Download and install Composer by following the instructions in the Composer documentation.
+3. **Install Node.js & npm**: Download and install Node.js, which includes npm, by following the instructions in the Node.js documentation.
+4. **Set up a web server**: Install and configure a web server like Xampp or Nginx by following the respective documentation.
+
+Once you have all the prerequisites installed, you can proceed with cloning the repository and setting up the environment variables as described in the previous sections.
+
+## Helpful YouTube Videos for Installation
+
+Here are some YouTube videos to help you with the installation process:
+
+1. **Installing PHP on Windows/Mac/Linux**:
+    - [How to Install PHP on Windows 10](https://www.youtube.com/watch?v=OK_JCtrrv-c)
+    - [How to Install PHP on macOS](https://www.youtube.com/watch?v=y3hLXe0rfn4)
+    - [How to Install PHP on Ubuntu](https://www.youtube.com/watch?v=K5n1k0p-5e0)
+
+2. **Installing Composer**:
+    - [How to Install Composer on Windows](https://www.youtube.com/watch?v=1K77xg8JH0Y)
+    - [How to Install Composer on macOS](https://www.youtube.com/watch?v=Tf5jz4ZkGfw)
+    - [How to Install Composer on Ubuntu](https://www.youtube.com/watch?v=8QnZ3QhUqXM)
+
+3. **Installing Node.js and npm**:
+    - [How to Install Node.js and npm on Windows](https://www.youtube.com/watch?v=kQabFyl9r9I)
+    - [How to Install Node.js and npm on macOS](https://www.youtube.com/watch?v=Imj8PgG3bZU)
+    - [How to Install Node.js and npm on Ubuntu](https://www.youtube.com/watch?v=kYtRSSpUduw)
+
+4. **Setting Up a Web Server**:
+    - [How to Install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
+    - [How to Install XAMPP on macOS](https://www.youtube.com/watch?v=CCENlDeGvv8&t=254s)
+    - [How to Install Nginx on Ubuntu](https://www.youtube.com/watch?v=7YqlP7HYU1g)
 ## License
 
+This project is licensed under the MIT License. You are free to use it for educational purposes.
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Follow Me
+
+Stay connected and follow me on social media for updates and more:
+
+- [GitHub](https://github.com/nisalgunawardhana)
+- [Twitter](https://twitter.com/thenisas)
+- [Facebook](https://web.facebook.com/thenisals/)
+- [LinkedIn](https://www.linkedin.com/in/nisalgunawardhana/)
