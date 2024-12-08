@@ -48,7 +48,7 @@ To clone the forked repository to your local PC, follow these steps:
 1. Open your terminal or command prompt.
 2. Run the following command, replacing `your-username` with your GitHub username:
     ```bash
-    git clone https://github.com/your-username/chatbot-By-NisalGunawardhana.git
+    git clone https://github.com/nisalgunawardhana/ChatBot-Challenge-By-NisalGunawardhana.git
     ```
 3. Navigate to the cloned directory:
     ```bash
