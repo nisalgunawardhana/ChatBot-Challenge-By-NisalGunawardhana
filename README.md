@@ -42,13 +42,34 @@ To fork this repository, follow these steps:
 2. Click the "Fork" button in the top right corner of the page.
 3. Choose your GitHub account to fork the repository.
 
+## Creating a New Branch for the Challenge 🌿
+
+After forking the repository, create a new branch named `challenge/Your_Name` in your forked version. Follow these steps:
+
+1. **Navigate to the forked repository directory**:
+    ```bash
+    cd ChatBot-Challenge-By-NisalGunawardhana
+    ```
+
+2. **Create a new branch**:
+    ```bash
+    git checkout -b challenge/Your_Name
+    ```
+
+3. **Push the new branch to your forked repository**:
+    ```bash
+    git push origin challenge/Your_Name
+    ```
+
+Replace `Your_Name` with your actual name to personalize the branch name. This helps in organizing your work and making it easier to track your progress.
+
 ## How to Clone to Local PC 💻
 
 To clone the forked repository to your local PC, follow these steps:
 1. Open your terminal or command prompt.
 2. Run the following command, replacing `your-username` with your GitHub username:
     ```bash
-    git clone https://github.com/nisalgunawardhana/ChatBot-Challenge-By-NisalGunawardhana.git
+    git clone https://github.com/your-username/ChatBot-Challenge-By-NisalGunawardhana.git
     ```
 3. Navigate to the cloned directory:
     ```bash
@@ -246,6 +267,8 @@ Here are some YouTube videos to help you with the installation process:
     - [How to Install XAMPP on Windows](https://www.youtube.com/watch?v=h6DEDm7C37A)
     - [How to Install XAMPP on macOS](https://www.youtube.com/watch?v=CCENlDeGvv8&t=254s)
     - [How to Install Nginx on Ubuntu](https://www.youtube.com/watch?v=7YqlP7HYU1g)
+
+
 
 ## License 📄
 
