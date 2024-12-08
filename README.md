@@ -52,7 +52,7 @@ To clone the forked repository to your local PC, follow these steps:
     ```
 3. Navigate to the cloned directory:
     ```bash
-    cd chatbot-By-NisalGunawardhana
+    cd ChatBot-Challenge-By-NisalGunawardhana
     ```
 
 ## Setting Up Environment Variables 🌐
