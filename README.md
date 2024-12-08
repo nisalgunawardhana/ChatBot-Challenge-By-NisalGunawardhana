@@ -58,19 +58,46 @@ To clone the forked repository to your local PC, follow these steps:
 ## Setting Up Environment Variables 🌐
 
 To set up your environment variables, follow these steps:
-    
-1. Copy the `.env.example` file to create a new `.env` file:
+
+1. **Copy the `.env.example` file to create a new `.env` file**:
     ```bash
     cp .env.example .env
     ```
-    
-2. Open the `.env` file in your preferred text editor.
-    
-3. Uncomment the `AZURE_URL` and `API_KEY` lines by removing the `#` at the beginning of the lines and provide the appropriate values:
+
+2. **Install Composer dependencies**:
+    ```bash
+    composer install
+    ```
+
+3. **Install Node.js dependencies**:
+    ```bash
+    npm install
+    ```
+
+4. **Generate the application key**:
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Open the `.env` file in your preferred text editor**.
+
+6. **Uncomment the `AZURE_URL` and `API_KEY` lines by removing the `#` at the beginning of the lines and provide the appropriate values**:
     ```env
     AZURE_URL=your_azure_url
     API_KEY=your_api_key
     ```
+
+7. **Run the migrations to set up your database**:
+    ```bash
+    php artisan migrate
+    ```
+
+8. **Start the development server**:
+    ```bash
+    php artisan serve
+    ```
+
+Now your environment is set up and you can start developing your chatbot!
 
 ## Finding Your Azure AI Studio API Key and Endpoint 🔑
 
@@ -82,6 +109,72 @@ To find your Azure AI Studio API key and endpoint, follow these steps:
 4. You will see your API keys and endpoint URL listed on this page. Copy these values to use in your `.env` file.
 
 ![Project Screenshot](public/images/image01.png)
+
+## Configuring OpenAI Services 🛠️
+
+After setting up your environment variables, you need to configure the OpenAI services in the `config/services.php` file. Follow these steps:
+
+1. Open the `config/services.php` file in your preferred text editor.
+2. Find the commented `openai` service variable.
+3. Uncomment the `openai` service variable by removing the `/*` and `*/` around it.
+
+Your `config/services.php` file should look like this:
+
+``` <?php
+
+return [
+
+    /*
+    |--------------------------------------------------------------------------
+    | Third Party Services
+    |--------------------------------------------------------------------------
+    |
+    | This file is for storing the credentials for third party services such
+    | as Mailgun, Postmark, AWS and more. This file provides the de facto
+    | location for this type of information, allowing packages to have
+    | a conventional file to locate the various service credentials.
+    |
+    */
+
+    'postmark' => [
+        'token' => env('POSTMARK_TOKEN'),
+    ],
+
+    'ses' => [
+        'key' => env('AWS_ACCESS_KEY_ID'),
+        'secret' => env('AWS_SECRET_ACCESS_KEY'),
+        'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
+    ],
+
+    'resend' => [
+        'key' => env('RESEND_KEY'),
+    ],
+
+    'slack' => [
+        'notifications' => [
+            'bot_user_oauth_token' => env('SLACK_BOT_USER_OAUTH_TOKEN'),
+            'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
+        ],
+    ],
+
+    //uncomment this code
+    
+    'openai' => [
+         'api_url' => env('AZURE_BOT_API_URL'),
+         'api_key' => env('AZURE_BOT_API_KEY'),
+    ],
+
+];
+
+```
+
+Make sure to replace `your_api_key` `your_api_endpoint` with your actual OpenAI API key in the `.env` file:
+
+```AZURE_BOT_API_URL=your_api_endpoint
+AZURE_BOT_API_KEY=your_api_key
+```
+
+Now your Bot services are configured and ready to use!
 
 ## Step 03
 ## Submit Project and Get Certificate 🎉🏆

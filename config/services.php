@@ -34,7 +34,9 @@ return [
             'channel' => env('SLACK_BOT_USER_DEFAULT_CHANNEL'),
         ],
     ],
-    
+
+    //uncomment this code
+
     // 'openai' => [
     //     'api_url' => env('AZURE_BOT_API_URL'),
     //     'api_key' => env('AZURE_BOT_API_KEY'),
