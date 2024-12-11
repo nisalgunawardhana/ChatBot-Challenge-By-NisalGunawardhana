@@ -5,6 +5,14 @@
 Join the AI Chatbot Challenge and elevate your skills by combining the power of Laravel and Azure AI Foundry! In this challenge, you’ll explore how to create a custom AI-powered chatbot using Azure AI Studio while enhancing your backend expertise with Laravel. Complete the project, showcase your work, and receive a certificate of achievement to share on LinkedIn and beyond. 📜🎓
 ![Intro Image](public/images/intro.png)
 
+## Join the Discussion 💬
+
+Have questions or need help? Join the discussion and get support from the community:
+
+- [Ask Me](https://medium.com/@sansgunawardhana/ai-chatbot-challenge-earn-your-certificate-and-win-linkedin-premium-1d3417b080e5)
+
+Feel free to ask questions, share your progress, and help others in the community!
+
 ## Benefits of Participating 🎁
 
 By joining this challenge, you will:
